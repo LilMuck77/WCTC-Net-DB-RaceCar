@@ -34,5 +34,11 @@ namespace RaceTrack.RaceTrack.Cars
         {
             Console.WriteLine($"The {Name} ends in position {Position}!");
         }
+        public virtual void StopEngine()
+        {
+            Console.WriteLine($"Slow down and stop {Name}. The race is over.");
+       
+        }
+
     }
 }
